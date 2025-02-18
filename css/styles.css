@@ -1,0 +1,54 @@
+:root {
+    --primary-color: rgb(54, 86, 167);
+
+    --dark-main-color: #272727;
+    --dark-box-shadow: 0 2px 3px #1a1a1a;
+    --dark-font-color: #d9d9d9;
+
+    --light-main-color: #fff;
+    --light-font-color: #303030;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark-main-color);
+    color: var(--dark-font-color);
+}
+
+/* themeing */
+button#themeButton {
+    border: 1px solid #256098;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #387cbc;
+    box-shadow: 1px 2px 3px #1a1a1a;
+}
+
+button#themeButton:hover {
+    cursor: pointer;
+}
+
+.light {
+    display: none;
+}
+/* end of themeing */
+
+/* navbar */
+
+#navbar {
+    display: flex;
+    box-shadow: var(--dark-box-shadow);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: var(--dark-font-color);
+}
+
+#navbar a:hover {
+    color: var(--primary-color);
+}
