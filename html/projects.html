@@ -16,12 +16,32 @@
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="/html/resume.html" class="nav-link">Resume</a></li>
                 <li><a href="/html/projects.html" class="active nav-link">Projects</a></li>
+                <div class="dropdown-container">
+                    <button class="dropdown-btn" id="dropdownBtn">
+                        <img class="hamburger-icon" src="/images/hamburger-menu-svgrepo-com.svg">
+                    </button>
+                    <ul class="dropdown-content" id="dropdownList">
+                        <li><a href="index.html" class="dropdown-link">Home</a></li>
+                        <li><a href="/html/resume.html" class="dropdown-link">Resume</a></li>
+                        <li><a href="/html/projects.html" class="active dropdown-link">Projects</a></li>
+                    </ul>
+                </div>
             </ul>
         </nav>
     </div>
     <!-- end of navigation -->
 
     <!-- page content -->
+
+    <div class="gallery-container">
+        <div class="gallery-photo-container">
+            <div class="gallery-photo"><img src="" alt="photo description"></div>
+        </div>
+        <div class="gallery-caption-container">
+            <p id="galleryCaption" class="gallery-caption">Caption here</p>
+        </div>
+    </div>
+
     <!-- end of page content -->
 
     <!-- theme button -->
@@ -33,5 +53,6 @@
 
 
     <script src="/scripts/index.js"></script>
+    <script src="/scripts/projects.js"></script>
 </body>
 </html>

@@ -64,16 +64,74 @@ button#themeButton:hover {
     border-radius: 5px;
 }
 
-.navbar a.nav-link:hover {
+.navbar a.nav-link:hover, .hamburger-menu:hover {
     background-color: var(--primary-color);
     padding: 5px;
     border-radius: 5px;
 }
 
+.hamburger-icon {
+    width: 40px;
+}
+
+.dropdown-btn {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.dropdown-link {
+    display: none;
+}
+
+.dropdown-content {
+    list-style: none;
+}
+
 /* navbar - mobile view */
 
 @media only screen and (max-width: 500px) {
+    .nav-link {
+        display: none;
+    }
 
+    .navbar {
+        grid-template-columns: repeat(5,auto);
+    }
+
+    /* nav dropdown */
+    .dropdown-btn {
+        display: flex;
+    }
+
+    .dropdown-btn:hover {
+        background-color: var(--primary-color);
+    }
+    
+    .dropdown-link:hover {
+        background-color: var(--light-font-color);
+        border-radius: 5px;
+    }
+
+    .dropdown-content {
+        display: none;
+    
+        background-color: var(--dark-main-color);
+        border: 1px solid var(--light-font-color);
+        box-shadow: var(--dark-box-shadow);
+
+        list-style: none;
+        position: absolute;
+        padding: 15px 15px;
+    }
+
+    .dropdown-link {
+        display: block;
+        padding: 10px 5px;
+        margin: 5px 0px;
+    }
 }
 
 /* end of navbar */
