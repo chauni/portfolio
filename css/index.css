@@ -1,0 +1,54 @@
+.card {
+    margin-top: 1em;
+    background-color: var(--dark-main-color);
+    border: 1px solid #393939;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: var(--dark-box-shadow);
+}
+
+div.info > .card-body {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+}
+
+.profile-img {
+    display: flex;
+    align-self: center;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: var(--dark-box-shadow);
+    margin: 0px 10px;
+}
+
+.link-icon {
+    width: 16px;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: var(--dark-font-color);
+    background-color: var(--dark-main-color);
+    border: 1px solid #393939;
+    border-radius: 15px;
+    margin: 10px 1px;
+    padding: 5px;
+}
+
+.card-link:hover {
+    background-color: rgb(54, 86, 167);
+}
+
+/* skill card */
+
+div.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+h1.section-label {
+    text-align: center;
+}
