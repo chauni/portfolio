@@ -8,9 +8,10 @@
 }
 
 div.info > .card-body {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    /* display: grid;
+    grid-template-columns: repeat(2, auto); */
     text-align: center;
+    background-image: url("../images/portfolio-hero.png");
 }
 
 .profile-img {
