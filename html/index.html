@@ -10,118 +10,51 @@
 <body>
 
     <!-- start of navigation -->
-    <div class="nav-container">
-        <nav>
-            <ul class="navbar">
-                <li><h1 class="nav-site-id"><a href="/html/index.html">createdby<span style="color: rgb(54, 86, 167);">chauni</span></a></h1></li>
-                <li><a href="index.html" class="active nav-link">Home</a></li>
-                <li><a href="/html/resume.html" class="nav-link">Resume</a></li>
-                <li><a href="/html/projects.html" class="nav-link">Projects</a></li>
-                <div class="dropdown-container">
-                    <button class="dropdown-btn" id="dropdownBtn">
-                        <img class="hamburger-icon" src="/images/hamburger-menu-svgrepo-com.svg">
-                    </button>
-                    <ul class="dropdown-content" id="dropdownList">
-                        <li><a href="index.html" class="active dropdown-link">Home</a></li>
-                        <li><a href="/html/resume.html" class="dropdown-link">Resume</a></li>
-                        <li><a href="/html/projects.html" class="dropdown-link">Projects</a></li>
-                    </ul>
-                </div>
-            </ul>
-        </nav>
-    </div>
+
+    <div class="hero-img">
+        <div class="nav-container">
+            <nav>
+                <ul class="navbar">
+                    <li><h1 class="nav-site-id"><a href="/html/index.html">createdby<span style="color: rgb(54, 86, 167);">chauni</span></a></h1></li>
+                    <li><a href="/html/resume.html" class="nav-link">Resume</a></li>
+                    <li><a href="/html/projects.html" class="nav-link">Projects</a></li>
+                    <div class="dropdown-container">
+                        <button class="dropdown-btn" id="dropdownBtn">
+                            <img class="hamburger-icon" src="/images/hamburger-menu-svgrepo-com.svg">
+                        </button>
+                        <ul class="dropdown-content" id="dropdownList">
+                            <li><a href="index.html" class="active dropdown-link">Home</a></li>
+                            <li><a href="/html/resume.html" class="dropdown-link">Resume</a></li>
+                            <li><a href="/html/projects.html" class="dropdown-link">Projects</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </nav>
+        </div>
     <!-- end of navigation -->
 
     <!-- page content -->
 
-    <div class="info card">
-        <div class="card-body">
-            <div>
-                <h2>Hi, I'm Chauni!</h2>
-                <p>
-                    I'm an Interactive Design student with a minor in Software Engineering.
-                </p>
-                <a class="card-link" href="#">
-                    <img src="../images/linkedin-svgrepo-com(1).svg" alt="linkedin icon" class="link-icon">
-                    LinkedIn
-                </a>
-                <a class="card-link" href="https://github.com/chauni">
-                    <img src="../images/github-outline-fill-svgrepo-com.svg"alt="github icon" class="link-icon">
-                    GitHub
-                </a>
-                <a class="card-link" href="#">
-                    <img src="../images/folder-share-svgrepo-com.svg"alt="portfolio icon" class="link-icon">
-                    My Portfolio
-                </a>
-            </div>
+        <div class="hero-content">
+            <h1>Hi, I'm Chauni</h1>
+            <p>I'm a UI developer with skills in UI/UX research and design, as well as various programming languages like HTML/CSS, Javascript, React, Java, and Python
+            </p>
         </div>
     </div>
 
-    <h1 class="section-label">Skills</h1>
-        <div class="skills-container">
-                <div class="skills-languages card">
-                    <div class="card-body">
-                        <h2>Coding Languages:</h2>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>React</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="skills-technical card">
-                    <div class="card-body">
-                        <h2>Technical:</h2>
-                        <ul>
-                            <li>Figma</li>
-                            <li>Microsoft Office Suite</li>
-                            <li>Adobe Photoshop</li>
-                            <li>Adobe Premiere Pro</li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="page-content">
+        <div class="about">
+            <p>I'm currently a senior at Kennesaw State University pursuing a Bachelor of Science in Interactive Design and a minor in Software Engineering</p>
+            <a class="card-link" href="projects.html">View my recent projects</a>
         </div>
 
-    <h1 class="section-label">Experience</h1>
-        <div class="experience-container">
-            <div class="experience card">
-                <div class="card-body">
-                    <div class="job-info">
-                        <h2>Apprentice Software Developer</h2>
-                        <h3>Morgan Stanley</h3>
-                        <p><em>Date</em></p>
-                    </div>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="experience card">
-                <div class="card-body">
-                    <div class="job-info">
-                        <h2>Application Developer Trainee</h2>
-                        <h3>Year Up</h3>
-                        <p><em>Date</em></p>
-                    </div>
-                    <ul>
-                        <li>Figma</li>
-                        <li>Microsoft Office Suite</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Premiere Pro</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="experience">
+            <p>My most recent experience was at Morgan Stanley as a Front End Developer Intern. The tech stack was Docker (database), RapidSQL (for job scheduling), Java, and React.</p>
+            <a class="card-link" href="resume.html">View my resume</a>
         </div>
-
+    </div>
 
     <!-- end of page content -->
-
 
     <script src="/scripts/index.js"></script>
 </body>

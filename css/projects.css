@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 
-.gallery-container {
+/* .gallery-container {
     text-align: center;
     background-color: var(--dark-main-color);
     border: 1px solid var(--dark-secondary-color);
@@ -31,4 +31,12 @@ body {
 .gallery-control-btn img {
     width: 32px;
     box-shadow: var(--dark-box-shadow);
+} */
+
+#cardContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    padding: 2em;
 }
