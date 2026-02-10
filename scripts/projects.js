@@ -7,17 +7,17 @@ const galleryCaption = document.getElementById("galleryCaption");
 
 const projectImages = [
     {
-        src: "../images/portfolio-assets/ecommerce-site/Screenshot 2024-07-24 at 8.17.16 PM.png", 
+        src: "../images/portfolio-assets/ecommerce-site/nubook-landing.png", 
         alt: "image of an book e-commerce site's home page", 
         caption: "NuBook E-Commerce site - Home Page"
     },
     {
-        src: "../images/portfolio-assets/ecommerce-site/Screenshot 2024-07-24 at 8.18.16 PM.png", 
+        src: "../images/portfolio-assets/ecommerce-site/nubook-products.png", 
         alt: "image of an book e-commerce site", 
         caption: "NuBook E-Commerce site - Product Page"
     },
     {
-        src: "../images/portfolio-assets/ecommerce-site/Screenshot 2024-07-24 at 8.18.51 PM.png", 
+        src: "../images/portfolio-assets/ecommerce-site/nubook-checkout.png", 
         alt: "image of an book e-commerce site", 
         caption: "NuBook E-Commerce site - Checkout Page"
     }
