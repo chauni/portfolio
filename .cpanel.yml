@@ -1,7 +1,9 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp styles.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/ownthum8/public_html/
+    - /bin/cp -R scripts $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R html $DEPLOYPATH
+  /bin/cp index.html $DEPLOYPATH
