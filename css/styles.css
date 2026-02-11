@@ -7,6 +7,8 @@
 
     --light-main-color: #fff;
     --dark-secondary-color: #303030;
+
+    --border: #393939;
 }
 
 body {
@@ -119,9 +121,13 @@ body {
 .card {
     margin-top: 1em;
     background-color: var(--dark-main-color);
-    border: 1px solid #393939;
+    border: 1px solid var(--border);
     border-radius: 10px;
     box-shadow: var(--dark-box-shadow);
+}
+
+.card p {
+    padding: 1em;
 }
 
 .card-link {

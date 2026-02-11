@@ -74,6 +74,9 @@ function createCard(title, src, alt, caption, href, icon) {
 
     const cardBtnIcon = document.createElement('img')
     cardBtnIcon.classList.add("link-icon")
+    if (!icon) {
+        cardBtnIcon.style.display = "none"
+    }
     cardBtnIcon.src = icon
 
     const cardBtn = document.createElement('a')

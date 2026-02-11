@@ -37,13 +37,18 @@ div.info {
 }
 
 .page-content {
-    display: flex;
-    text-align: left;
-    flex-wrap: wrap;
-    height: 50vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, minmax(300px, 800px));
+    gap: 2em;
     padding: 2em;
 }
 
-.page-content .card-link {
-    max-width: 40%;
+.page-content .about {
+    margin-bottom: 5em;
+}
+
+.page-content p {
+    font-size: 1.25em;
+    padding: 1em;
 }
